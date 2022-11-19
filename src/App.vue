@@ -5,14 +5,15 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Site logo" class="logo" src="@/assets/eteru2.svg" width="125" height="125" />
+    <img alt="Site logo" class="logo" src="@/assets/erisu.jpg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="ようこそ！" />
+      <HelloWorld msg="ようこそ！Johmaruのサイトへ" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/profile">Profile</RouterLink>
       </nav>
     </div>
   </header>
@@ -28,14 +29,18 @@ header {
 
 .logo {
   display: block;
-  margin: 0 auto 2rem;
+  position: fixed;
+  top: 0vw;
+  left: 0vw;
 }
 
 nav {
   width: 100%;
   font-size: 12px;
   text-align: center;
-  margin-top: 2rem;
+  left: 20vw;
+  top: 1vw;
+  position: fixed;
 }
 
 nav a.router-link-exact-active {
