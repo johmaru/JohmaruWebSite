@@ -5,16 +5,17 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Site logo" class="logo" src="@/assets/erisu.jpg" width="125" height="125" />
+    <img alt="Site logo" class="logo" src="@/assets/erisu.jpg" width="125" height="125" oncontextmenu="return false;"/>
 
     <div class="wrapper">
       <HelloWorld msg="ようこそ！Johmaruのサイトへ" />
-
+      
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/profile">Profile</RouterLink>
       </nav>
+      <a href="https://github.com/johmaru/JohmaruWebSite/tree/master" class="GitBTN" target="_blank"><img src="@/assets/Octocat.png" alt="GitPage" width="128" height="128" oncontextmenu="return false;"></a>
     </div>
   </header>
 
@@ -23,23 +24,29 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <style scoped>
 header {
-  line-height: 1;
-  max-height: 100vh;
+  line-height: 1%;
+  max-height: 100%;
 }
 
 .logo {
   display: block;
   position: fixed;
-  top: 4vw;
-  left: 0vw;
+  top: 2rem;
+  left: 0rem;
+}
+
+.GitBTN{
+  bottom: 0.5rem;
+  right: 0rem;
+  position: fixed;
 }
 
 nav {
   width: 100%;
   font-size: 12px;
   text-align: center;
-  left: 20vw;
-  top: 0vw;
+  left: 25rem;
+  top: -1rem;
   position: fixed;
 }
 
@@ -52,7 +59,7 @@ nav a.router-link-exact-active:hover {
 }
 
 nav a {
-  display: inline-block;
+
   padding: 0 1rem;
   border-left: 1px solid var(--color-border);
 }
@@ -82,7 +89,6 @@ nav a:first-of-type {
     text-align: left;
     margin-left: -1rem;
     font-size: 1rem;
-
     padding: 1rem 0;
     margin-top: 1rem;
   }

@@ -19,18 +19,18 @@ defineProps({
 
 <style scoped>
 h1 {
-  font-weight: 500;
-  font-size: 1.5rem;
-  top: 1.4vw;
-  left: 0vw;
+
+  font-size: 25px;
+  top: 1rem;
+  left: 0rem;
   position: fixed;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.5vmax;
   position: fixed;
-  bottom: 1vw;
-  left: 1vw;
+  bottom: 1rem;
+  left: 1rem;
 }
 
 .greetings h1,
