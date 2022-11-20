@@ -6,10 +6,11 @@
 <style>
 @media (min-width: 1024px) {
   .Profile {
-    min-height: 100vh;
+    min-height: 75%;
     align-items: center;
     position: fixed;
-    top: 10%;
+    top: 8rem;
+    text-align: center;
   }
 }
 </style>

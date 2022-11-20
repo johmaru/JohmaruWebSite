@@ -7,10 +7,11 @@
 <style>
 @media (min-width: 1024px) {
   .about {
-    min-height: 100vh;
+    min-height: 75%;
     align-items: center;
+    text-align: center;
     position: fixed;
-    top: 10%;
+    top: 8rem;
   }
 }
 </style>
