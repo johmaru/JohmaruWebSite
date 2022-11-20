@@ -10,7 +10,7 @@
     min-height: 100vh;
     align-items: center;
     position: fixed;
-    top: 10vw;
+    top: 10%;
   }
 }
 </style>
