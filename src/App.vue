@@ -23,14 +23,14 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <style scoped>
 header {
-  line-height: 1.5;
+  line-height: 1;
   max-height: 100vh;
 }
 
 .logo {
   display: block;
   position: fixed;
-  top: 0vw;
+  top: 4vw;
   left: 0vw;
 }
 
@@ -39,7 +39,7 @@ nav {
   font-size: 12px;
   text-align: center;
   left: 20vw;
-  top: 1vw;
+  top: 0vw;
   position: fixed;
 }
 
