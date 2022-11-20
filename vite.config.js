@@ -7,6 +7,8 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 // https://vitejs.dev/config/
 export default defineConfig({
   base: process.env.NODE_ENV === 'production' ? '/JohmaruWebSite/' : './',
+  assetsDir:'./',
+  outDir: 'docs',
   plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
