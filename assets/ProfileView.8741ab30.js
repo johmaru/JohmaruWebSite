@@ -1,0 +1,1 @@
+import{_ as e,o,c as _,a as s}from"./index.b202b003.js";const t={},c={class:"Profile"},n=s("h1",null,"\u30B5\u30A4\u30C8\u5275\u8A2D\u8005\u306EJohmaru\u306B\u3064\u3044\u3066",-1),r=[n];function a(i,l){return o(),_("div",c,r)}const f=e(t,[["render",a]]);export{f as default};
