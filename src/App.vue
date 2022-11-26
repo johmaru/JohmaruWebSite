@@ -6,10 +6,8 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <header>
     <img alt="Site logo" class="logo" src="@/assets/erisu.jpg" width="125" height="125" oncontextmenu="return false;"/>
-
     <div class="wrapper">
       <HelloWorld msg="ようこそ！Johmaruのサイトへ" />
-      
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
