@@ -1,0 +1,1 @@
+import{_ as e,o,c as _,a as t}from"./index.fff15443.js";const s={},c={class:"Profile"},a=t("h1",{id:"Nav_Title2"},"Johmaru\u306B\u3064\u3044\u3066",-1),n=[a];function r(i,l){return o(),_("div",c,n)}const f=e(s,[["render",r]]);export{f as default};
