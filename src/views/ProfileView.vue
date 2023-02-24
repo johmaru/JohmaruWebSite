@@ -1,16 +1,18 @@
 <template>
   <div class="Profile">
-    <h1>サイト創設者のJohmaruについて</h1>
+    <h1 id="Nav_Title2">Johmaruについて</h1>
   </div>
 </template>
 <style>
-@media (min-width: 1024px) {
-  .Profile {
-    min-height: 75%;
+@media (min-width: 100px) {
+  h1#Nav_Title2 {
     align-items: center;
-    position: fixed;
-    top: 8rem;
     text-align: center;
+  }
+  .Profile {
+    position: fixed;
+    top: 5%;
+    left: 50%;
   }
 }
 </style>
