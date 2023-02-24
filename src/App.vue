@@ -23,7 +23,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <style scoped>
 header {
   line-height: 1%;
-  max-height: 100%;
+  max-height: 100vh;
 }
 
 .logo {

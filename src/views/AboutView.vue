@@ -1,17 +1,21 @@
 <template>
   <div class="about">
-    <h1>このサイトについて</h1>
+    <h1 id="Nav_Title1">このサイトについて</h1>
   </div>
 </template>
 
 <style>
-@media (min-width: 1024px) {
+@media (min-width: 100px) {
+  
+  h1#Nav_Title1 {
+    align-items:center;
+    text-align:center;
+  }
+  
   .about {
-    min-height: 75%;
-    align-items: center;
-    text-align: center;
     position: fixed;
-    top: 8rem;
+    top: 5%;
+    left: 50%;
   }
 }
 </style>
